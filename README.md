@@ -10,6 +10,20 @@ This project analyzes global university rankings using SQL, Python, and Power BI
 - Exported results to Excel
 - Built Power BI dashboard
 
-# Files
+## 📂 Repository Structure
 
-/university_rankings ├── my_results/ # Folder with analysis results │ ├── university_analysis.xlsx # SQL query results │ ├── university_analysis.pbix # Power BI dashboard ├── powerbi_images/ # Power BI visualization screenshots │ ├── best_in_czechia.png # Best universities in Czechia │ ├── cities_with_50+.png # Cities with 50+ universities │ ├── sum_by_country.png # Summary by country (top 100, top 500, below 500) ├── data_university.sqlite # SQLite database with universities ├── top_universities.csv # Dataset ├── import_csv.py # Imports CSV into SQLite ├── query_sql.py # Runs SQL queries and exports to Excel ├── README.md # This file
+- **my_results/** (Folder with analysis results)
+  - `university_analysis.xlsx`
+  - `university_analysis.pbix`
+
+- **powerbi_images/** (Power BI visualization screenshots)
+  - `best_in_czechia.png`
+  - `cities_with_50+.png`
+  - `sum_by_country.png`
+
+- `data_university.sqlite` (SQLite database with universities)
+- `top_universities.csv` (Dataset)
+- `import_csv.py` (Imports CSV into SQLite)
+- `query_sql.py` (SQL queries)
+- `README.md`
+
